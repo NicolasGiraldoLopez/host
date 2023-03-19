@@ -1,0 +1,61 @@
+body{margin: 0; padding: 0; background: #c4acd1 url(fondo.gif) 0 0 repeat-x; font: 70%/160% "verdana", sans-serif; color: #192666;}
+
+p{margin: 2em 5px; padding: 0 10px;}
+.clear{clear: both;}
+h1, h2, h3, h4, h5{margin: 1em 0; padding:0;}
+h1{font-size: 260%; font-family: "georgia", serif; font-weight: normal;}
+h2{font-size:180%; font-family: "georgia", serif; font-weight:normal;}
+h3{font-size:120%; font-weight:bold;}
+ul, ol{margin: 1em 0 1em 2em; padding:0;}
+
+#pagina{width: 800px; margin: 50px auto 0 auto; padding-bottom: 50px;}
+
+header{width: 800px; position: relative; height: 100px; margin: 0; padding: 0; background: rgb(198, 178, 28); border-top-left-radius: 40px; border-top-right-radius: 40px ;} 
+    header #Nombre{position: absolute; top: 35px; left: 35px; margin: 0;}
+    header #buscador{position: absolute; top: 40px; right: 20px;}
+    header #buscador legend{display: none;}
+    header #buscador fieldset{border: none;}
+
+menu{background: #000000; margin: 0 0; padding: 10px 0 40px 0;}
+    menu ul{margin: 0 59px; padding: 0; list-style: none;}
+    menu ul li{margin: 0 30px 0 0; padding: 0; float: left;}
+    menu ul li a{display: block; position: relative; padding: 5px 15px; border: 0; background: rgb(255, 149, 0); color: #ffffff; font-weight: bold; text-decoration: none; cursor: pointer;}
+    menu ul li a:hover{background: #36ba64;}
+    menu ul li.seleccionado a{background: #428d58; color: #589364;}
+
+article{width: 800px; margin: 0 0; background: #fff;}
+    article .articulo{clear: both; margin: 0; padding: 0;}
+    article .articulo h2{margin: 0 0; padding: 10px; background: rgb(198, 178, 28); color: #192666;}
+/*
+#contenido #principal{float: left; width: 530px; margin-top: 15px; padding:0 0 0 0;}
+#contenido #secundario{float: left; width: 200px; margin: 15px 10px 0 0; padding: 0; background: #cedbf9 url(fondo_columna.gif) no-repeat;}
+    #contenido #secundario h3{padding: 10px 0 10px 10px; margin-top: 20px; background: #a0b9f3; color: #192666;}
+    #contenido #secundario #sobremi img{float: left; margin: 4px 5px 0 0;}
+    #contenido #secundario div{padding: 0 10px;}
+    #contenido #secundario ul{margin: 15px 0; padding: 0; list-style: none;}
+    #contenido #secundario li{margin: 0; padding: 0; border-bottom: 1px solid #e0e8fa;}
+    #contenido #secundario li a{display: block; padding: 11px 0 11px 22px; background: url(icono_elemento.gif) 8px no-repeat; text-decoration: none;}
+    #contenido #secundario li a:hover{background-color: #E0E8FA; color: #192666;}
+    #contenido #secundario li.seleccionado a{background: #E0E8FA; font-weight: bold;}*/
+
+footer{clear: both; height: 10px; margin-bottom: 50px; color: #000000; position: relative;}
+    footer p{margin: 0; padding: 20px; position: absolute; top: 10px; left: 0; background: #ffffff; width: 760px; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px;}
+
+
+img{width: 300px; height: 300px; margin: 5px}
+    #top{width: 230px; height: 230px; margin: 5px}
+    #mid{width: 230px; height: 230px; margin: 5px}
+    #jng{width: 230px; height: 230px; margin: 5px}
+    #bot{width: 230px; height: 230px; margin: 5px}
+    #uno{padding-left: 30px; width: 200px; height: 200px; margin: 5px}
+    #unodos{padding-left: 30px; width: 200px; height: 200px; margin: 5px}
+    #unotres{padding-left: 30px; width: 200px; height: 200px; margin: 5px}
+    #unocuatro{padding-left: 30px; width: 200px; height: 200px; margin: 5px}
+    #dos{padding-left: 30px; width: 140px; height: 240x; margin: 5px}
+    #dosuno{padding-left: 30px; width: 240px; height: 240px; margin: 5px}
+    #tres{padding-left: 30px; width: 140px; height: 240px; margin: 5px}
+    #tresuno{padding-left: 30px; width: 140px; height: 240px; margin: 5px}
+    #cuatro{padding-left: 30px; width: 200px; height: 200px; margin: 5px}
+    #cuatrouno{padding-left: 30px; width: 200px; height: 200px; margin: 5px}
+
+p{text-align: left; font-family: sans-serif; display: block;}
